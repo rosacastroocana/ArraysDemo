@@ -9,6 +9,30 @@ public class App
     public static void main( String[] args )
   
     {
+    	// manejo de los argumentos que recibe el metodo main, es decir, la app cuando 
+    	// se ejecuta porque la app cuando se ejecuta recibe como paramentro un arry de 
+    	// argumentos de tipo string ( String[] args )
+    	// Dónde se especifican los argumentso que recibe la app en el IDE Eclipse?
+    	// Rta. En la coinfiguración de las opciones de ejecución
+    	
+    	// Primero hay que comprobar si la app está recibiendo los argumentos esperados
+    	if(args.length == 0 ) {
+    		System.out.println("No se han recibido los argumentos esperados");
+    		    	} else if (args.length != 3)  {
+    		System.out.println("No se han recibido tres argumentos");
+    		    	} else  {
+    		    		//Mostrar o manejar los argumentos recibidos.
+    		    System.out.println("Se han recibido los argumentos esperados");
+    		    for(String argumento : args)
+    		    	System.out.println(argumento);
+    		    	}
+    		    		
+    		
+    	
+    	
+    	
+    	
+    	
     	
     	// Variante 2
         // Cómo se declara un array
@@ -67,7 +91,12 @@ public class App
     	}
  // Segundo: Con un for mejorado, en ocasiones MAL llamado (porque la sentencia porEach esiste) for each (por cada):
     	 
-    	
+   	 for (String nombre : nombres)
+   	System.out.println(nombre);
+   	
+// Cuando algo es estatico no hay que crear un objeto, se accede con el nombre de la clase. Elemento.
+// Lo que no es estatico vive en el mundo de las instancias y hay que crear un objeto 
+
     	
 
     	

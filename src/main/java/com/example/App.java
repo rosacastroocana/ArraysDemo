@@ -31,11 +31,14 @@ public class App
     		    System.out.println("Se han recibido los siguientes argumentos");
     		    for(String argumento : args)
     		    	System.out.println(argumento);
-    		  //Creamos una variable: private static int ARRAY_SIZE;  
-    		    // 
+    		    ARRAY_SIZE = Integer.parseInt(args[1]);
+    		    System.out.println("El tamaño del array es : " + ARRAY_SIZE);
+    		    // "20" es string hay que quitarle las comillas
+    		  //Primero creamos una variable arriba: private static int ARRAY_SIZE;  
     		    
-    		    	}
-    		    		
+    		    
+    	    	}
+       		
     
   	
     }
